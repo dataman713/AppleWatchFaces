@@ -286,7 +286,7 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate, WKCrownDele
         super.didAppear() // important for removing digital time display hack
         
         if #available(watchOS 6,*) {
-            hideDigitalTimeFor6()
+            //WKTimeHidingInterfaceController in Obj C
         } else {
             hideDigitalTime()
         }
@@ -318,10 +318,7 @@ class InterfaceController: WKInterfaceController, WCSessionDelegate, WKCrownDele
 // Hack in order to disable the digital time on the screen
 extension WKInterfaceController{
     
-    func hideDigitalTimeFor6() {
-        //super secret :-)
-    }
-    
+    //for watchOS 5 and below
     func hideDigitalTime(){
         guard let cls = NSClassFromString("SPFullScreenView") else {return}
         let viewControllers = (((NSClassFromString("UIApplication")?.value(forKey:"sharedApplication") as? NSObject)?.value(forKey: "keyWindow") as? NSObject)?.value(forKey:"rootViewController") as? NSObject)?.value(forKey:"viewControllers") as? [NSObject]
