@@ -21,7 +21,7 @@
 			<string>Owner</string>
 			<key>LSItemContentTypes</key>
 			<array>
-				<string>com.mikehill.clockologyios.clk</string>
+				<string>com.mikehill.clockologyopensource.clk</string>
 			</array>
 		</dict>
 	</array>
@@ -100,7 +100,7 @@
 				<string>public.data</string>
 			</array>
 			<key>UTTypeIdentifier</key>
-			<string>com.mikehill.clockologyios.clk</string>
+			<string>com.mikehill.clockologyopensource.clk</string>
 			<key>UTTypeTagSpecification</key>
 			<dict>
 				<key>public.filename-extension</key>

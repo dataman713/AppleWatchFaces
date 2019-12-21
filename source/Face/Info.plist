@@ -26,7 +26,7 @@
 		<string>UIInterfaceOrientationPortraitUpsideDown</string>
 	</array>
 	<key>WKCompanionAppBundleIdentifier</key>
-	<string>com.mikehill.clockologyios</string>
+	<string>com.mikehill.clockologyopensource</string>
 	<key>WKWatchKitApp</key>
 	<true/>
 </dict>
