@@ -10,11 +10,9 @@
 		3100DC9E21EC26A3007423A5 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E5BC4A21A39DAF00C1B35E /* StringExtension.swift */; };
 		3103A4452293644800E7B10A /* NumberRingLayerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3103A4442293644800E7B10A /* NumberRingLayerOptions.swift */; };
 		3103A446229364A500E7B10A /* NumberRingLayerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3103A4442293644800E7B10A /* NumberRingLayerOptions.swift */; };
-		3103A447229364A600E7B10A /* NumberRingLayerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3103A4442293644800E7B10A /* NumberRingLayerOptions.swift */; };
 		3103A4492293858900E7B10A /* FaceLayerNumberRingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3103A4482293858900E7B10A /* FaceLayerNumberRingTableViewCell.swift */; };
 		3105333D225A753F004282E5 /* NSObject+JSONHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105333C225A753F004282E5 /* NSObject+JSONHelpers.swift */; };
 		3105333E225A753F004282E5 /* NSObject+JSONHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105333C225A753F004282E5 /* NSObject+JSONHelpers.swift */; };
-		3105333F225A753F004282E5 /* NSObject+JSONHelpers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105333C225A753F004282E5 /* NSObject+JSONHelpers.swift */; };
 		31053344225C3DE7004282E5 /* FaceForegroundNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310B1BAF2245A25B00EA1827 /* FaceForegroundNode.swift */; };
 		3105674621F77E6D0078F3C6 /* UIViewController+Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105674521F77E6D0078F3C6 /* UIViewController+Toast.swift */; };
 		3105674921F7E9210078F3C6 /* DigitalTimeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D8633921E5954B005BCB6F /* DigitalTimeNode.swift */; };
@@ -28,7 +26,6 @@
 		310675D72297820C00EBCFE0 /* FaceLayerImageBackgroundTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310675D62297820C00EBCFE0 /* FaceLayerImageBackgroundTableViewCell.swift */; };
 		310675D9229816D000EBCFE0 /* ImageBackgroundLayerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310675D8229816D000EBCFE0 /* ImageBackgroundLayerOptions.swift */; };
 		310675DA229826F500EBCFE0 /* ImageBackgroundLayerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310675D8229816D000EBCFE0 /* ImageBackgroundLayerOptions.swift */; };
-		310675DB229826F500EBCFE0 /* ImageBackgroundLayerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310675D8229816D000EBCFE0 /* ImageBackgroundLayerOptions.swift */; };
 		310725DF223D7083008030A2 /* PhysicsNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310725DE223D7083008030A2 /* PhysicsNode.swift */; };
 		310725E0223D7083008030A2 /* PhysicsNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310725DE223D7083008030A2 /* PhysicsNode.swift */; };
 		31090FBC2233277C00D6CAA7 /* ROMAN-TRAJAN-PRO.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 31090FAC2233277C00D6CAA7 /* ROMAN-TRAJAN-PRO.TTF */; };
@@ -67,16 +64,11 @@
 		31090FDE223421AA00D6CAA7 /* PongGameNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31090FDC223421AA00D6CAA7 /* PongGameNode.swift */; };
 		31090FE32234B71300D6CAA7 /* FaceBackgroundNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EF999221A0AF4F00BB54E7 /* FaceBackgroundNode.swift */; };
 		31092073224FA2D10032D3AB /* WatchSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31092072224FA2D10032D3AB /* WatchSessionManager.swift */; };
-		310920752251A8770032D3AB /* UIBrightnessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310920742251A8770032D3AB /* UIBrightnessViewController.swift */; };
-		310920772251A92E0032D3AB /* WatchSessionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31092072224FA2D10032D3AB /* WatchSessionManager.swift */; };
 		31092134225433230032D3AB /* Colors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 31092133225433220032D3AB /* Colors.plist */; };
-		31092135225433230032D3AB /* Colors.plist in Resources */ = {isa = PBXBuildFile; fileRef = 31092133225433220032D3AB /* Colors.plist */; };
 		31092138225433C30032D3AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31092137225433C30032D3AB /* Assets.xcassets */; };
-		31092139225433C30032D3AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31092137225433C30032D3AB /* Assets.xcassets */; };
 		3109D1E321A9A2C600561F13 /* FaceChooserEditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3109D1E221A9A2C600561F13 /* FaceChooserEditTableViewController.swift */; };
 		3109D1E521A9A37B00561F13 /* FaceChooserEditTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3109D1E421A9A37B00561F13 /* FaceChooserEditTableViewCell.swift */; };
 		310B1BB02245A25B00EA1827 /* FaceForegroundNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310B1BAF2245A25B00EA1827 /* FaceForegroundNode.swift */; };
-		310B1BB12245A25B00EA1827 /* FaceForegroundNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310B1BAF2245A25B00EA1827 /* FaceForegroundNode.swift */; };
 		310CDC5F222CCAA700AF3B8D /* UIImage+Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310CDC5E222CCAA700AF3B8D /* UIImage+Gradient.swift */; };
 		310CDC69222CD2EF00AF3B8D /* UIImage+Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310CDC5E222CCAA700AF3B8D /* UIImage+Gradient.swift */; };
 		310CDCB3222EABB400AF3B8D /* Face Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 318808F02178166B00585AB1 /* Face Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
@@ -85,35 +77,25 @@
 		310D922E227E6F17007A5808 /* FaceLayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310D922D227E6F17007A5808 /* FaceLayerTableViewCell.swift */; };
 		310D9230227E700B007A5808 /* FaceLayerShapeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310D922F227E700B007A5808 /* FaceLayerShapeTableViewCell.swift */; };
 		311B7CAF227F6A8E0073C4C9 /* ShapeLayerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B0A1CF227F4DE80031AFC0 /* ShapeLayerOptions.swift */; };
-		311B7CB0227F6A8E0073C4C9 /* ShapeLayerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B0A1CF227F4DE80031AFC0 /* ShapeLayerOptions.swift */; };
 		311B7CB2227F9D0A0073C4C9 /* HandLayerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311B7CB1227F9D0A0073C4C9 /* HandLayerOptions.swift */; };
 		311B7CB3227F9D0A0073C4C9 /* HandLayerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311B7CB1227F9D0A0073C4C9 /* HandLayerOptions.swift */; };
-		311B7CB4227F9D0A0073C4C9 /* HandLayerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 311B7CB1227F9D0A0073C4C9 /* HandLayerOptions.swift */; };
 		312D4C08218BCDDB008504D2 /* HourHandNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312D4C07218BCDDB008504D2 /* HourHandNode.swift */; };
 		312E2D6A21F2D69F00C2F17F /* SKWatchScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318808F92178166B00585AB1 /* SKWatchScene.swift */; };
 		312E2D6F21F3E16A00C2F17F /* ClockTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312E2D6E21F3E16A00C2F17F /* ClockTimer.swift */; };
 		312E2D7021F3E16A00C2F17F /* ClockTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312E2D6E21F3E16A00C2F17F /* ClockTimer.swift */; };
-		312E6B6B2241C7A400BB0D05 /* PhysicsNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310725DE223D7083008030A2 /* PhysicsNode.swift */; };
 		312E853822239740001C450B /* Double+Rounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312E853722239740001C450B /* Double+Rounded.swift */; };
 		312E853922239740001C450B /* Double+Rounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312E853722239740001C450B /* Double+Rounded.swift */; };
 		3135DF8F226AC1BC001F94D5 /* Settings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 310044C421D3C5DF0019794A /* Settings.storyboard */; };
-		3135DF91226AC1E9001F94D5 /* CLSettings.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3135DF90226AC1E9001F94D5 /* CLSettings.storyboard */; };
-		3135DF93226AC39B001F94D5 /* CLDecorators.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3135DF92226AC39B001F94D5 /* CLDecorators.storyboard */; };
 		313AE3E0221A777E00C02462 /* DotsNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313AE3DF221A777E00C02462 /* DotsNode.swift */; };
 		313AE3E1221A777E00C02462 /* DotsNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313AE3DF221A777E00C02462 /* DotsNode.swift */; };
 		313BB884227DEC71005BE9C5 /* FaceSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313BB883227DEC71005BE9C5 /* FaceSetting.swift */; };
 		313BB885227DEC71005BE9C5 /* FaceSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313BB883227DEC71005BE9C5 /* FaceSetting.swift */; };
-		313BB886227DEC71005BE9C5 /* FaceSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313BB883227DEC71005BE9C5 /* FaceSetting.swift */; };
 		313BB888227DEDB2005BE9C5 /* FaceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313BB887227DEDB2005BE9C5 /* FaceLayer.swift */; };
 		313BB889227DEDB2005BE9C5 /* FaceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313BB887227DEDB2005BE9C5 /* FaceLayer.swift */; };
-		313BB88A227DEDB2005BE9C5 /* FaceLayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313BB887227DEDB2005BE9C5 /* FaceLayer.swift */; };
 		313BB88C227DF5DB005BE9C5 /* UserFaceSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313BB88B227DF5DB005BE9C5 /* UserFaceSetting.swift */; };
 		313BB88D227DF5DB005BE9C5 /* UserFaceSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313BB88B227DF5DB005BE9C5 /* UserFaceSetting.swift */; };
-		313BB88E227DF5DB005BE9C5 /* UserFaceSetting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313BB88B227DF5DB005BE9C5 /* UserFaceSetting.swift */; };
 		313BB890227DFCF5005BE9C5 /* FaceSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = 313BB88F227DFCF4005BE9C5 /* FaceSettings.json */; };
 		313BB891227DFCF5005BE9C5 /* FaceSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = 313BB88F227DFCF4005BE9C5 /* FaceSettings.json */; };
-		313BB892227DFCF5005BE9C5 /* FaceSettings.json in Resources */ = {isa = PBXBuildFile; fileRef = 313BB88F227DFCF4005BE9C5 /* FaceSettings.json */; };
-		313EA3C7224C484F00C148BE /* Media.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31056B5E2218D2CE00D0E15C /* Media.xcassets */; };
 		314A010D219605AA009BCE3C /* Settings.json in Resources */ = {isa = PBXBuildFile; fileRef = 314A010B219605AA009BCE3C /* Settings.json */; };
 		314A010E219605AA009BCE3C /* Themes.json in Resources */ = {isa = PBXBuildFile; fileRef = 314A010C219605AA009BCE3C /* Themes.json */; };
 		314A011021962FF4009BCE3C /* WatchFaceNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314A010F21962FF4009BCE3C /* WatchFaceNode.swift */; };
@@ -123,13 +105,10 @@
 		314AFC1321D543C200C1208E /* UICollectionView+Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314AFC1221D543C200C1208E /* UICollectionView+Selection.swift */; };
 		314FEC8122A4FA270030DAE0 /* GearNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314FEC8022A4FA270030DAE0 /* GearNode.swift */; };
 		314FEC8222A4FA270030DAE0 /* GearNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314FEC8022A4FA270030DAE0 /* GearNode.swift */; };
-		314FEC8322A4FA270030DAE0 /* GearNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314FEC8022A4FA270030DAE0 /* GearNode.swift */; };
 		314FEC8522A4FDC30030DAE0 /* GearLayerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314FEC8422A4FDC30030DAE0 /* GearLayerOptions.swift */; };
 		314FEC8622A4FDC30030DAE0 /* GearLayerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314FEC8422A4FDC30030DAE0 /* GearLayerOptions.swift */; };
-		314FEC8722A4FDC30030DAE0 /* GearLayerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314FEC8422A4FDC30030DAE0 /* GearLayerOptions.swift */; };
 		315878CD22876338008FFC76 /* CAPECOD.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 315878CC22876338008FFC76 /* CAPECOD.OTF */; };
 		315878CE22876338008FFC76 /* CAPECOD.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 315878CC22876338008FFC76 /* CAPECOD.OTF */; };
-		315878CF22876338008FFC76 /* CAPECOD.OTF in Resources */ = {isa = PBXBuildFile; fileRef = 315878CC22876338008FFC76 /* CAPECOD.OTF */; };
 		315878D222877B4E008FFC76 /* FaceColorsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315878D122877B4E008FFC76 /* FaceColorsTableViewController.swift */; };
 		315878D522878261008FFC76 /* FaceColorSettingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315878D422878261008FFC76 /* FaceColorSettingTableViewCell.swift */; };
 		315878D82287835B008FFC76 /* ColorSettingCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315878D72287835A008FFC76 /* ColorSettingCollectionViewCell.swift */; };
@@ -137,13 +116,10 @@
 		315878DE2287AF5B008FFC76 /* FaceLayerDateTimeLabelTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315878DD2287AF5B008FFC76 /* FaceLayerDateTimeLabelTableViewCell.swift */; };
 		315AAB8922997FCB00B3A3E9 /* ClockColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FD61EA21891B6900E15DEA /* ClockColorTheme.swift */; };
 		315AAB8A22997FCB00B3A3E9 /* ClockColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FD61EA21891B6900E15DEA /* ClockColorTheme.swift */; };
-		315AAB8B22997FCC00B3A3E9 /* ClockColorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FD61EA21891B6900E15DEA /* ClockColorTheme.swift */; };
 		315AAB8C22997FEB00B3A3E9 /* ClockDecoratorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312D4C04218BCBF0008504D2 /* ClockDecoratorTheme.swift */; };
 		315AAB8D22997FEB00B3A3E9 /* ClockDecoratorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312D4C04218BCBF0008504D2 /* ClockDecoratorTheme.swift */; };
-		315AAB8E22997FEC00B3A3E9 /* ClockDecoratorTheme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312D4C04218BCBF0008504D2 /* ClockDecoratorTheme.swift */; };
 		315AAB8F22998A3C00B3A3E9 /* ParticleFieldLayerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315AAB8522997C2F00B3A3E9 /* ParticleFieldLayerOptions.swift */; };
 		315AAB9022998A3C00B3A3E9 /* ParticleFieldLayerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315AAB8522997C2F00B3A3E9 /* ParticleFieldLayerOptions.swift */; };
-		315AAB9122998A3D00B3A3E9 /* ParticleFieldLayerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315AAB8522997C2F00B3A3E9 /* ParticleFieldLayerOptions.swift */; };
 		315AAB932299BAAA00B3A3E9 /* FaceLayerFieldTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315AAB922299BAAA00B3A3E9 /* FaceLayerFieldTableViewCell.swift */; };
 		315AAB95229AE18300B3A3E9 /* FaceOptionsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315AAB94229AE18300B3A3E9 /* FaceOptionsTableViewController.swift */; };
 		315AAB98229AE44D00B3A3E9 /* FaceOptionsTitleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 315AAB97229AE44D00B3A3E9 /* FaceOptionsTitleTableViewCell.swift */; };
@@ -157,10 +133,8 @@
 		3175F59123AD98E10015D333 /* WKTimeHidingInterfaceController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3175F59023AD98E10015D333 /* WKTimeHidingInterfaceController.m */; };
 		3176F14522D24E0B00582A1A /* BatteryNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3176F14422D24E0B00582A1A /* BatteryNode.swift */; };
 		3176F14622D24EEB00582A1A /* BatteryNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3176F14422D24E0B00582A1A /* BatteryNode.swift */; };
-		3176F14722D24EEB00582A1A /* BatteryNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3176F14422D24E0B00582A1A /* BatteryNode.swift */; };
 		3176F14922D2529900582A1A /* BatteryIndicatorOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3176F14822D2529900582A1A /* BatteryIndicatorOptions.swift */; };
 		3176F14A22D2529900582A1A /* BatteryIndicatorOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3176F14822D2529900582A1A /* BatteryIndicatorOptions.swift */; };
-		3176F14B22D2529900582A1A /* BatteryIndicatorOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3176F14822D2529900582A1A /* BatteryIndicatorOptions.swift */; };
 		3176F14D22D2DCEA00582A1A /* FaceLayerBatteryIndicatorTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3176F14C22D2DCEA00582A1A /* FaceLayerBatteryIndicatorTableViewCell.swift */; };
 		318808D1217815E600585AB1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318808D0217815E600585AB1 /* AppDelegate.swift */; };
 		318808D3217815E600585AB1 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318808D2217815E600585AB1 /* SettingsViewController.swift */; };
@@ -193,76 +167,9 @@
 		31B5E8E2218CE08E00DE6429 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FD61E821891B4F00E15DEA /* SwiftyJSON.swift */; };
 		31BE6C12230B75A60018C315 /* FlipNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BE6C11230B75A60018C315 /* FlipNode.swift */; };
 		31BE6C13230B7A110018C315 /* FlipNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BE6C11230B75A60018C315 /* FlipNode.swift */; };
-		31BE6C14230B7A120018C315 /* FlipNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BE6C11230B75A60018C315 /* FlipNode.swift */; };
 		31BF7CA52339B82600DD8A5C /* BezierPath+CircleSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BF7CA42339B82600DD8A5C /* BezierPath+CircleSegment.swift */; };
 		31BF7CA62339B82A00DD8A5C /* BezierPath+CircleSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BF7CA42339B82600DD8A5C /* BezierPath+CircleSegment.swift */; };
-		31BF7CA72339B82E00DD8A5C /* BezierPath+CircleSegment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31BF7CA42339B82600DD8A5C /* BezierPath+CircleSegment.swift */; };
 		31C05DA521A712BD0021AEAB /* UIView+Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C05DA421A712BD0021AEAB /* UIView+Snapshot.swift */; };
-		31C86AE82237493600EF4186 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C86AE72237493600EF4186 /* AppDelegate.swift */; };
-		31C86AEA2237493600EF4186 /* ScreenSaverController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C86AE92237493600EF4186 /* ScreenSaverController.swift */; };
-		31C86AED2237493600EF4186 /* ClockologyMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31C86AEB2237493600EF4186 /* ClockologyMain.storyboard */; };
-		31C86AEF2237493700EF4186 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31C86AEE2237493700EF4186 /* Assets.xcassets */; };
-		31C86AF22237493700EF4186 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31C86AF02237493700EF4186 /* LaunchScreen.storyboard */; };
-		31C86AF822374B0300EF4186 /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C86AF722374B0300EF4186 /* PreviewViewController.swift */; };
-		31C86AF922374CB700EF4186 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318808D2217815E600585AB1 /* SettingsViewController.swift */; };
-		31C86AFA22374CEA00EF4186 /* PongGameNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31090FDC223421AA00D6CAA7 /* PongGameNode.swift */; };
-		31C86AFB22374CEA00EF4186 /* DotsNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 313AE3DF221A777E00C02462 /* DotsNode.swift */; };
-		31C86AFC22374CEA00EF4186 /* WatchFaceNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314A010F21962FF4009BCE3C /* WatchFaceNode.swift */; };
-		31C86AFD22374CEA00EF4186 /* DigitalTimeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D8633921E5954B005BCB6F /* DigitalTimeNode.swift */; };
-		31C86AFE22374CEA00EF4186 /* NumberTextNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D8633A21E5954B005BCB6F /* NumberTextNode.swift */; };
-		31C86AFF22374CEA00EF4186 /* FaceBackgroundNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EF999221A0AF4F00BB54E7 /* FaceBackgroundNode.swift */; };
-		31C86B0022374CEA00EF4186 /* FaceIndicatorNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B5E8D1218BD63E00DE6429 /* FaceIndicatorNode.swift */; };
-		31C86B0122374CEA00EF4186 /* MinuteHandNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B5E8CC218BD26B00DE6429 /* MinuteHandNode.swift */; };
-		31C86B0222374CEA00EF4186 /* HourHandNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312D4C07218BCDDB008504D2 /* HourHandNode.swift */; };
-		31C86B0322374CEA00EF4186 /* SecondHandNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F56F9C21857A2000455FC6 /* SecondHandNode.swift */; };
-		31C86B0422374CEA00EF4186 /* ArcNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31724A6421FA91B400D3F599 /* ArcNode.swift */; };
-		31C86B0B22374CF400EF4186 /* SKWatchScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 318808F72178166B00585AB1 /* SKWatchScene.sks */; };
-		31C86B0C22374CF400EF4186 /* SKWatchScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318808F92178166B00585AB1 /* SKWatchScene.swift */; };
-		31C86B0D22374CF400EF4186 /* Settings.json in Resources */ = {isa = PBXBuildFile; fileRef = 314A010B219605AA009BCE3C /* Settings.json */; };
-		31C86B0E22374CF400EF4186 /* Themes.json in Resources */ = {isa = PBXBuildFile; fileRef = 314A010C219605AA009BCE3C /* Themes.json */; };
-		31C86B0F22374CF400EF4186 /* AppUISettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F4F1B72198ACB50050177A /* AppUISettings.swift */; };
-		31C86B1022374CF400EF4186 /* ClockTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312E2D6E21F3E16A00C2F17F /* ClockTimer.swift */; };
-		31C86B1122374D0200EF4186 /* RoundedButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31B3F8C6218F22EF00AD22A5 /* RoundedButton.swift */; };
-		31C86B1222374D0700EF4186 /* ROMAN-TRAJAN-PRO.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 31090FAC2233277C00D6CAA7 /* ROMAN-TRAJAN-PRO.TTF */; };
-		31C86B1322374D0700EF4186 /* GERMANICA.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 31090FAD2233277C00D6CAA7 /* GERMANICA.TTF */; };
-		31C86B1422374D0700EF4186 /* LCDPHONE.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 31090FAE2233277C00D6CAA7 /* LCDPHONE.TTF */; };
-		31C86B1522374D0700EF4186 /* IRONLOUNGE.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 31090FAF2233277C00D6CAA7 /* IRONLOUNGE.TTF */; };
-		31C86B1622374D0700EF4186 /* DIGITAL-7-MONO-ITALICS.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 31090FB02233277C00D6CAA7 /* DIGITAL-7-MONO-ITALICS.TTF */; };
-		31C86B1722374D0700EF4186 /* DIGITAL-7-MONO.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 31090FB12233277C00D6CAA7 /* DIGITAL-7-MONO.TTF */; };
-		31C86B1822374D0700EF4186 /* PIXEL_MILLENNIUM.TFF in Resources */ = {isa = PBXBuildFile; fileRef = 31090FB22233277C00D6CAA7 /* PIXEL_MILLENNIUM.TFF */; };
-		31C86B1922374D0700EF4186 /* RATIONALINT.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 31090FB32233277C00D6CAA7 /* RATIONALINT.TTF */; };
-		31C86B1A22374D0700EF4186 /* ULTRACONDENSEDSARIF.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 31090FB42233277C00D6CAA7 /* ULTRACONDENSEDSARIF.TTF */; };
-		31C86B1B22374D0700EF4186 /* ROTHERNBURGDECORATIVE.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 31090FB52233277C00D6CAA7 /* ROTHERNBURGDECORATIVE.TTF */; };
-		31C86B1C22374D0700EF4186 /* BLACKROSE.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 31090FB62233277C00D6CAA7 /* BLACKROSE.TTF */; };
-		31C86B1D22374D0700EF4186 /* CONERIASCRIPT.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 31090FB72233277C00D6CAA7 /* CONERIASCRIPT.TTF */; };
-		31C86B1E22374D0700EF4186 /* DINPRO-LIGHT.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 31090FB82233277C00D6CAA7 /* DINPRO-LIGHT.TTF */; };
-		31C86B1F22374D0700EF4186 /* JOYSTIX.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 31090FB92233277C00D6CAA7 /* JOYSTIX.TTF */; };
-		31C86B2022374D0700EF4186 /* KINGTHINGS.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 31090FBA2233277C00D6CAA7 /* KINGTHINGS.TTF */; };
-		31C86B2122374D0700EF4186 /* NIXIEONE.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 31090FBB2233277C00D6CAA7 /* NIXIEONE.TTF */; };
-		31C86B2222374DA000EF4186 /* BezierPath+Length.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319095F921CC898100F71BC6 /* BezierPath+Length.swift */; };
-		31C86B2322374DA000EF4186 /* PathElement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319095FA21CC898100F71BC6 /* PathElement.swift */; };
-		31C86B2422374DA000EF4186 /* StringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E5BC4A21A39DAF00C1B35E /* StringExtension.swift */; };
-		31C86B2522374DA000EF4186 /* MathFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31A5F7EE21966CED000F1677 /* MathFunctions.swift */; };
-		31C86B2622374DA000EF4186 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FD61E821891B4F00E15DEA /* SwiftyJSON.swift */; };
-		31C86B2722374DA000EF4186 /* SKColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31061F312192716C00EF511B /* SKColor.swift */; };
-		31C86B2822374DA000EF4186 /* SKShapeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EF999521A0B6B700BB54E7 /* SKShapeNode.swift */; };
-		31C86B2922374DA000EF4186 /* UIImage+Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31E5BC4D21A3A0F700C1B35E /* UIImage+Loading.swift */; };
-		31C86B2A22374DA000EF4186 /* UIView+Snapshot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31C05DA421A712BD0021AEAB /* UIView+Snapshot.swift */; };
-		31C86B2B22374DA000EF4186 /* Collection+Safe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310D4A5821C0AA9000082A62 /* Collection+Safe.swift */; };
-		31C86B2C22374DA000EF4186 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318A928A21D059120060D89B /* UserDefaults.swift */; };
-		31C86B2D22374DA000EF4186 /* CameraHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314AFC0F21D51A7000C1208E /* CameraHandler.swift */; };
-		31C86B2E22374DA000EF4186 /* UICollectionView+Selection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314AFC1221D543C200C1208E /* UICollectionView+Selection.swift */; };
-		31C86B2F22374DA000EF4186 /* UIViewController+Toast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3105674521F77E6D0078F3C6 /* UIViewController+Toast.swift */; };
-		31C86B3022374DA000EF4186 /* Double+Rounded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 312E853722239740001C450B /* Double+Rounded.swift */; };
-		31C86B3122374DA000EF4186 /* UIImage+Gradient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 310CDC5E222CCAA700AF3B8D /* UIImage+Gradient.swift */; };
-		31C86B5C22374E0000EF4186 /* WatchPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F56FA321857FC100455FC6 /* WatchPreviewViewController.swift */; };
-		31C86B5E22374E5E00EF4186 /* GenerateThumbnailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC17D032202B05A0064D962 /* GenerateThumbnailsViewController.swift */; };
-		31C86B5F22374E6000EF4186 /* SettingsOptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318A928C21D05F660060D89B /* SettingsOptionsViewController.swift */; };
-		31C86B6022374E7200EF4186 /* FaceChooserEditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3109D1E221A9A2C600561F13 /* FaceChooserEditTableViewController.swift */; };
-		31C86B6122374E7200EF4186 /* FaceChooserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EF999E21A2045B00BB54E7 /* FaceChooserTableViewController.swift */; };
-		31C86B6222374E7200EF4186 /* FaceChooserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EF99A121A205F200BB54E7 /* FaceChooserTableViewCell.swift */; };
-		31C86B6322374E7200EF4186 /* FaceChooserCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31EF99A321A2072C00BB54E7 /* FaceChooserCollectionViewCell.swift */; };
-		31C86B6422374E7200EF4186 /* FaceChooserEditTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3109D1E421A9A37B00561F13 /* FaceChooserEditTableViewCell.swift */; };
 		31D8633C21E5954B005BCB6F /* DigitalTimeNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D8633921E5954B005BCB6F /* DigitalTimeNode.swift */; };
 		31D8633D21E5954B005BCB6F /* NumberTextNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D8633A21E5954B005BCB6F /* NumberTextNode.swift */; };
 		31D8633E21E5954B005BCB6F /* NumberTextNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D8633A21E5954B005BCB6F /* NumberTextNode.swift */; };
@@ -285,21 +192,15 @@
 		31F56FA421857FC100455FC6 /* WatchPreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F56FA321857FC100455FC6 /* WatchPreviewViewController.swift */; };
 		31F56FA52185816F00455FC6 /* SKWatchScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318808F92178166B00585AB1 /* SKWatchScene.swift */; };
 		31F56FA62185817E00455FC6 /* SKWatchScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 318808F72178166B00585AB1 /* SKWatchScene.sks */; };
-		31F7D19522595D8700A1A27E /* OptionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31F7D19422595D8700A1A27E /* OptionsViewController.swift */; };
 		31FD61E921891B5000E15DEA /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FD61E821891B4F00E15DEA /* SwiftyJSON.swift */; };
 		31FF20C7228E6D010023F8A5 /* SettingsViewController+Sharing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF20C6228E6D010023F8A5 /* SettingsViewController+Sharing.swift */; };
-		31FF20C8228E6D130023F8A5 /* SettingsViewController+Sharing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF20C6228E6D010023F8A5 /* SettingsViewController+Sharing.swift */; };
 		31FF20CA228E6E870023F8A5 /* SettingsViewController+WatchDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF20C9228E6E870023F8A5 /* SettingsViewController+WatchDelegate.swift */; };
-		31FF20CB228E6E870023F8A5 /* SettingsViewController+WatchDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF20C9228E6E870023F8A5 /* SettingsViewController+WatchDelegate.swift */; };
 		31FF20CD228E6EFA0023F8A5 /* SettingsViewController+Undo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF20CC228E6EFA0023F8A5 /* SettingsViewController+Undo.swift */; };
-		31FF20CE228E6EFA0023F8A5 /* SettingsViewController+Undo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF20CC228E6EFA0023F8A5 /* SettingsViewController+Undo.swift */; };
 		31FF20D5228FB96B0023F8A5 /* ColorCollectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF20D4228FB96B0023F8A5 /* ColorCollectionDataSource.swift */; };
 		31FF20D72290A9A80023F8A5 /* DigitalTimeLayerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF20D62290A9A80023F8A5 /* DigitalTimeLayerOptions.swift */; };
 		31FF20D82290ABBD0023F8A5 /* DigitalTimeLayerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF20D62290A9A80023F8A5 /* DigitalTimeLayerOptions.swift */; };
-		31FF20D92290ABBD0023F8A5 /* DigitalTimeLayerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF20D62290A9A80023F8A5 /* DigitalTimeLayerOptions.swift */; };
 		31FF20DB2291C57A0023F8A5 /* GradientBackgroundLayerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF20DA2291C57A0023F8A5 /* GradientBackgroundLayerOptions.swift */; };
 		31FF20DC2291C57A0023F8A5 /* GradientBackgroundLayerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF20DA2291C57A0023F8A5 /* GradientBackgroundLayerOptions.swift */; };
-		31FF20DD2291C57A0023F8A5 /* GradientBackgroundLayerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF20DA2291C57A0023F8A5 /* GradientBackgroundLayerOptions.swift */; };
 		FDC17D0221FF98CE0064D962 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318808F52178166B00585AB1 /* InterfaceController.swift */; };
 		FDC17D042202B05A0064D962 /* GenerateThumbnailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC17D032202B05A0064D962 /* GenerateThumbnailsViewController.swift */; };
 /* End PBXBuildFile section */
@@ -378,7 +279,6 @@
 		31090FBB2233277C00D6CAA7 /* NIXIEONE.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = NIXIEONE.TTF; sourceTree = "<group>"; };
 		31090FDC223421AA00D6CAA7 /* PongGameNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PongGameNode.swift; sourceTree = "<group>"; };
 		31092072224FA2D10032D3AB /* WatchSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchSessionManager.swift; sourceTree = "<group>"; };
-		310920742251A8770032D3AB /* UIBrightnessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBrightnessViewController.swift; sourceTree = "<group>"; };
 		31092133225433220032D3AB /* Colors.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Colors.plist; sourceTree = "<group>"; };
 		31092137225433C30032D3AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3109D1E221A9A2C600561F13 /* FaceChooserEditTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceChooserEditTableViewController.swift; sourceTree = "<group>"; };
@@ -396,8 +296,6 @@
 		312D4C07218BCDDB008504D2 /* HourHandNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HourHandNode.swift; sourceTree = "<group>"; };
 		312E2D6E21F3E16A00C2F17F /* ClockTimer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockTimer.swift; sourceTree = "<group>"; };
 		312E853722239740001C450B /* Double+Rounded.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Double+Rounded.swift"; sourceTree = "<group>"; };
-		3135DF90226AC1E9001F94D5 /* CLSettings.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CLSettings.storyboard; sourceTree = "<group>"; };
-		3135DF92226AC39B001F94D5 /* CLDecorators.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = CLDecorators.storyboard; sourceTree = "<group>"; };
 		313AE3DF221A777E00C02462 /* DotsNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DotsNode.swift; sourceTree = "<group>"; };
 		313BB883227DEC71005BE9C5 /* FaceSetting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceSetting.swift; sourceTree = "<group>"; };
 		313BB887227DEDB2005BE9C5 /* FaceLayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceLayer.swift; sourceTree = "<group>"; };
@@ -464,15 +362,6 @@
 		31BE6C11230B75A60018C315 /* FlipNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlipNode.swift; sourceTree = "<group>"; };
 		31BF7CA42339B82600DD8A5C /* BezierPath+CircleSegment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BezierPath+CircleSegment.swift"; sourceTree = "<group>"; };
 		31C05DA421A712BD0021AEAB /* UIView+Snapshot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Snapshot.swift"; sourceTree = "<group>"; };
-		31C86AE52237493600EF4186 /* Clockology.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clockology.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		31C86AE72237493600EF4186 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		31C86AE92237493600EF4186 /* ScreenSaverController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScreenSaverController.swift; sourceTree = "<group>"; };
-		31C86AEC2237493600EF4186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ClockologyMain.storyboard; sourceTree = "<group>"; };
-		31C86AEE2237493700EF4186 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		31C86AF12237493700EF4186 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		31C86AF32237493700EF4186 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		31C86AF722374B0300EF4186 /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
-		31C86B682237604800EF4186 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		31D8633921E5954B005BCB6F /* DigitalTimeNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DigitalTimeNode.swift; sourceTree = "<group>"; };
 		31D8633A21E5954B005BCB6F /* NumberTextNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberTextNode.swift; sourceTree = "<group>"; };
 		31DD953422A3B38B00868E31 /* FaceLayerGearTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceLayerGearTableViewCell.swift; sourceTree = "<group>"; };
@@ -487,7 +376,6 @@
 		31F4F1D8219D08890050177A /* FaceChooserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceChooserViewController.swift; sourceTree = "<group>"; };
 		31F56F9C21857A2000455FC6 /* SecondHandNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondHandNode.swift; sourceTree = "<group>"; };
 		31F56FA321857FC100455FC6 /* WatchPreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchPreviewViewController.swift; sourceTree = "<group>"; };
-		31F7D19422595D8700A1A27E /* OptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OptionsViewController.swift; sourceTree = "<group>"; };
 		31FD61E821891B4F00E15DEA /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
 		31FD61EA21891B6900E15DEA /* ClockColorTheme.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ClockColorTheme.swift; sourceTree = "<group>"; };
 		31FF20C6228E6D010023F8A5 /* SettingsViewController+Sharing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "SettingsViewController+Sharing.swift"; sourceTree = "<group>"; };
@@ -508,13 +396,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		318808ED2178166B00585AB1 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		31C86AE22237493600EF4186 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -655,7 +536,6 @@
 			children = (
 				3196401D22076439005CF169 /* readme.md */,
 				3123628B217AAAF000E78EFC /* Shared */,
-				31C86AE62237493600EF4186 /* Clockology */,
 				318808CF217815E600585AB1 /* AppleWatchFaces */,
 				318808E52178166A00585AB1 /* Face */,
 				318808F42178166B00585AB1 /* Face Extension */,
@@ -670,7 +550,6 @@
 				318808CD217815E600585AB1 /* AppleWatchFaces.app */,
 				318808E42178166A00585AB1 /* Face.app */,
 				318808F02178166B00585AB1 /* Face Extension.appex */,
-				31C86AE52237493600EF4186 /* Clockology.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -752,25 +631,6 @@
 				31B3F8C6218F22EF00AD22A5 /* RoundedButton.swift */,
 			);
 			path = CustomClasses;
-			sourceTree = "<group>";
-		};
-		31C86AE62237493600EF4186 /* Clockology */ = {
-			isa = PBXGroup;
-			children = (
-				31C86B682237604800EF4186 /* README.md */,
-				31C86AE72237493600EF4186 /* AppDelegate.swift */,
-				310920742251A8770032D3AB /* UIBrightnessViewController.swift */,
-				31C86AE92237493600EF4186 /* ScreenSaverController.swift */,
-				31C86AF722374B0300EF4186 /* PreviewViewController.swift */,
-				31F7D19422595D8700A1A27E /* OptionsViewController.swift */,
-				31C86AEB2237493600EF4186 /* ClockologyMain.storyboard */,
-				3135DF90226AC1E9001F94D5 /* CLSettings.storyboard */,
-				3135DF92226AC39B001F94D5 /* CLDecorators.storyboard */,
-				31C86AEE2237493700EF4186 /* Assets.xcassets */,
-				31C86AF02237493700EF4186 /* LaunchScreen.storyboard */,
-				31C86AF32237493700EF4186 /* Info.plist */,
-			);
-			path = Clockology;
 			sourceTree = "<group>";
 		};
 		31EF99A021A2046100BB54E7 /* ChooserView */ = {
@@ -888,23 +748,6 @@
 			productReference = 318808F02178166B00585AB1 /* Face Extension.appex */;
 			productType = "com.apple.product-type.watchkit2-extension";
 		};
-		31C86AE42237493600EF4186 /* Clockology */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 31C86AF42237493700EF4186 /* Build configuration list for PBXNativeTarget "Clockology" */;
-			buildPhases = (
-				31C86AE12237493600EF4186 /* Sources */,
-				31C86AE22237493600EF4186 /* Frameworks */,
-				31C86AE32237493600EF4186 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Clockology;
-			productName = Clockology;
-			productReference = 31C86AE52237493600EF4186 /* Clockology.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -947,9 +790,6 @@
 							};
 						};
 					};
-					31C86AE42237493600EF4186 = {
-						CreatedOnToolsVersion = 10.1;
-					};
 				};
 			};
 			buildConfigurationList = 318808C8217815E600585AB1 /* Build configuration list for PBXProject "AppleWatchFaces" */;
@@ -968,7 +808,6 @@
 				318808CC217815E600585AB1 /* AppleWatchFaces */,
 				318808E32178166A00585AB1 /* Face */,
 				318808EF2178166B00585AB1 /* Face Extension */,
-				31C86AE42237493600EF4186 /* Clockology */,
 			);
 		};
 /* End PBXProject section */
@@ -1047,42 +886,6 @@
 				31090FCF2233277C00D6CAA7 /* ROTHERNBURGDECORATIVE.TTF in Resources */,
 				31090FBD2233277C00D6CAA7 /* ROMAN-TRAJAN-PRO.TTF in Resources */,
 				31090FCD2233277C00D6CAA7 /* ULTRACONDENSEDSARIF.TTF in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		31C86AE32237493600EF4186 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				31C86B1822374D0700EF4186 /* PIXEL_MILLENNIUM.TFF in Resources */,
-				31C86B2022374D0700EF4186 /* KINGTHINGS.TTF in Resources */,
-				31C86B1F22374D0700EF4186 /* JOYSTIX.TTF in Resources */,
-				31C86B1422374D0700EF4186 /* LCDPHONE.TTF in Resources */,
-				31C86B1922374D0700EF4186 /* RATIONALINT.TTF in Resources */,
-				31C86B1322374D0700EF4186 /* GERMANICA.TTF in Resources */,
-				31092139225433C30032D3AB /* Assets.xcassets in Resources */,
-				31C86B1722374D0700EF4186 /* DIGITAL-7-MONO.TTF in Resources */,
-				31C86AF22237493700EF4186 /* LaunchScreen.storyboard in Resources */,
-				31C86AEF2237493700EF4186 /* Assets.xcassets in Resources */,
-				31C86B0D22374CF400EF4186 /* Settings.json in Resources */,
-				313EA3C7224C484F00C148BE /* Media.xcassets in Resources */,
-				31C86B0E22374CF400EF4186 /* Themes.json in Resources */,
-				31C86B1522374D0700EF4186 /* IRONLOUNGE.TTF in Resources */,
-				313BB892227DFCF5005BE9C5 /* FaceSettings.json in Resources */,
-				31C86B0B22374CF400EF4186 /* SKWatchScene.sks in Resources */,
-				3135DF93226AC39B001F94D5 /* CLDecorators.storyboard in Resources */,
-				3135DF91226AC1E9001F94D5 /* CLSettings.storyboard in Resources */,
-				31C86B1D22374D0700EF4186 /* CONERIASCRIPT.TTF in Resources */,
-				31C86AED2237493600EF4186 /* ClockologyMain.storyboard in Resources */,
-				315878CF22876338008FFC76 /* CAPECOD.OTF in Resources */,
-				31C86B1622374D0700EF4186 /* DIGITAL-7-MONO-ITALICS.TTF in Resources */,
-				31C86B1C22374D0700EF4186 /* BLACKROSE.TTF in Resources */,
-				31C86B2122374D0700EF4186 /* NIXIEONE.TTF in Resources */,
-				31C86B1E22374D0700EF4186 /* DINPRO-LIGHT.TTF in Resources */,
-				31C86B1B22374D0700EF4186 /* ROTHERNBURGDECORATIVE.TTF in Resources */,
-				31092135225433230032D3AB /* Colors.plist in Resources */,
-				31C86B1222374D0700EF4186 /* ROMAN-TRAJAN-PRO.TTF in Resources */,
-				31C86B1A22374D0700EF4186 /* ULTRACONDENSEDSARIF.TTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1242,83 +1045,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		31C86AE12237493600EF4186 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3176F14722D24EEB00582A1A /* BatteryNode.swift in Sources */,
-				312E6B6B2241C7A400BB0D05 /* PhysicsNode.swift in Sources */,
-				314FEC8322A4FA270030DAE0 /* GearNode.swift in Sources */,
-				3103A447229364A600E7B10A /* NumberRingLayerOptions.swift in Sources */,
-				31C86B2922374DA000EF4186 /* UIImage+Loading.swift in Sources */,
-				31C86B0022374CEA00EF4186 /* FaceIndicatorNode.swift in Sources */,
-				31C86B2822374DA000EF4186 /* SKShapeNode.swift in Sources */,
-				31C86B2222374DA000EF4186 /* BezierPath+Length.swift in Sources */,
-				31C86B2622374DA000EF4186 /* SwiftyJSON.swift in Sources */,
-				310B1BB12245A25B00EA1827 /* FaceForegroundNode.swift in Sources */,
-				314FEC8722A4FDC30030DAE0 /* GearLayerOptions.swift in Sources */,
-				31C86B0F22374CF400EF4186 /* AppUISettings.swift in Sources */,
-				31C86AEA2237493600EF4186 /* ScreenSaverController.swift in Sources */,
-				31C86AFB22374CEA00EF4186 /* DotsNode.swift in Sources */,
-				31C86AFE22374CEA00EF4186 /* NumberTextNode.swift in Sources */,
-				31C86B2722374DA000EF4186 /* SKColor.swift in Sources */,
-				313BB88A227DEDB2005BE9C5 /* FaceLayer.swift in Sources */,
-				315AAB8B22997FCC00B3A3E9 /* ClockColorTheme.swift in Sources */,
-				31C86B0322374CEA00EF4186 /* SecondHandNode.swift in Sources */,
-				311B7CB0227F6A8E0073C4C9 /* ShapeLayerOptions.swift in Sources */,
-				31C86B2422374DA000EF4186 /* StringExtension.swift in Sources */,
-				31FF20CB228E6E870023F8A5 /* SettingsViewController+WatchDelegate.swift in Sources */,
-				311B7CB4227F9D0A0073C4C9 /* HandLayerOptions.swift in Sources */,
-				31FF20CE228E6EFA0023F8A5 /* SettingsViewController+Undo.swift in Sources */,
-				31C86B3022374DA000EF4186 /* Double+Rounded.swift in Sources */,
-				31C86B1022374CF400EF4186 /* ClockTimer.swift in Sources */,
-				31C86AE82237493600EF4186 /* AppDelegate.swift in Sources */,
-				31C86AFD22374CEA00EF4186 /* DigitalTimeNode.swift in Sources */,
-				31C86AFC22374CEA00EF4186 /* WatchFaceNode.swift in Sources */,
-				313BB886227DEC71005BE9C5 /* FaceSetting.swift in Sources */,
-				31C86B2F22374DA000EF4186 /* UIViewController+Toast.swift in Sources */,
-				313BB88E227DF5DB005BE9C5 /* UserFaceSetting.swift in Sources */,
-				31C86B2B22374DA000EF4186 /* Collection+Safe.swift in Sources */,
-				31C86B2D22374DA000EF4186 /* CameraHandler.swift in Sources */,
-				31C86B0422374CEA00EF4186 /* ArcNode.swift in Sources */,
-				31C86AFF22374CEA00EF4186 /* FaceBackgroundNode.swift in Sources */,
-				31C86B5E22374E5E00EF4186 /* GenerateThumbnailsViewController.swift in Sources */,
-				31FF20C8228E6D130023F8A5 /* SettingsViewController+Sharing.swift in Sources */,
-				310920752251A8770032D3AB /* UIBrightnessViewController.swift in Sources */,
-				315AAB9122998A3D00B3A3E9 /* ParticleFieldLayerOptions.swift in Sources */,
-				31C86B0222374CEA00EF4186 /* HourHandNode.swift in Sources */,
-				31C86B2A22374DA000EF4186 /* UIView+Snapshot.swift in Sources */,
-				31C86AF822374B0300EF4186 /* PreviewViewController.swift in Sources */,
-				315AAB8E22997FEC00B3A3E9 /* ClockDecoratorTheme.swift in Sources */,
-				31C86B3122374DA000EF4186 /* UIImage+Gradient.swift in Sources */,
-				31C86B5F22374E6000EF4186 /* SettingsOptionsViewController.swift in Sources */,
-				3105333F225A753F004282E5 /* NSObject+JSONHelpers.swift in Sources */,
-				31C86B2E22374DA000EF4186 /* UICollectionView+Selection.swift in Sources */,
-				310675DB229826F500EBCFE0 /* ImageBackgroundLayerOptions.swift in Sources */,
-				31C86AFA22374CEA00EF4186 /* PongGameNode.swift in Sources */,
-				31C86B0122374CEA00EF4186 /* MinuteHandNode.swift in Sources */,
-				31FF20DD2291C57A0023F8A5 /* GradientBackgroundLayerOptions.swift in Sources */,
-				31C86B6122374E7200EF4186 /* FaceChooserTableViewController.swift in Sources */,
-				31C86B1122374D0200EF4186 /* RoundedButton.swift in Sources */,
-				31C86B6322374E7200EF4186 /* FaceChooserCollectionViewCell.swift in Sources */,
-				310920772251A92E0032D3AB /* WatchSessionManager.swift in Sources */,
-				3176F14B22D2529900582A1A /* BatteryIndicatorOptions.swift in Sources */,
-				31BE6C14230B7A120018C315 /* FlipNode.swift in Sources */,
-				31C86B6222374E7200EF4186 /* FaceChooserTableViewCell.swift in Sources */,
-				31C86B6022374E7200EF4186 /* FaceChooserEditTableViewController.swift in Sources */,
-				31F7D19522595D8700A1A27E /* OptionsViewController.swift in Sources */,
-				31C86B6422374E7200EF4186 /* FaceChooserEditTableViewCell.swift in Sources */,
-				31C86B0C22374CF400EF4186 /* SKWatchScene.swift in Sources */,
-				31C86B2C22374DA000EF4186 /* UserDefaults.swift in Sources */,
-				31C86B2522374DA000EF4186 /* MathFunctions.swift in Sources */,
-				31C86AF922374CB700EF4186 /* SettingsViewController.swift in Sources */,
-				31C86B2322374DA000EF4186 /* PathElement.swift in Sources */,
-				31BF7CA72339B82E00DD8A5C /* BezierPath+CircleSegment.swift in Sources */,
-				31FF20D92290ABBD0023F8A5 /* DigitalTimeLayerOptions.swift in Sources */,
-				31C86B5C22374E0000EF4186 /* WatchPreviewViewController.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -1365,22 +1091,6 @@
 				318808E72178166A00585AB1 /* Base */,
 			);
 			name = Interface.storyboard;
-			sourceTree = "<group>";
-		};
-		31C86AEB2237493600EF4186 /* ClockologyMain.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				31C86AEC2237493600EF4186 /* Base */,
-			);
-			name = ClockologyMain.storyboard;
-			sourceTree = "<group>";
-		};
-		31C86AF02237493700EF4186 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				31C86AF12237493700EF4186 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1650,44 +1360,6 @@
 			};
 			name = Release;
 		};
-		31C86AF52237493700EF4186 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4345F4RV9N;
-				INFOPLIST_FILE = Clockology/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mikehill.clockology;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		31C86AF62237493700EF4186 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 4345F4RV9N;
-				INFOPLIST_FILE = Clockology/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mikehill.clockology;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -1723,15 +1395,6 @@
 			buildConfigurations = (
 				3188090B2178166B00585AB1 /* Debug */,
 				3188090C2178166B00585AB1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		31C86AF42237493700EF4186 /* Build configuration list for PBXNativeTarget "Clockology" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				31C86AF52237493700EF4186 /* Debug */,
-				31C86AF62237493700EF4186 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
