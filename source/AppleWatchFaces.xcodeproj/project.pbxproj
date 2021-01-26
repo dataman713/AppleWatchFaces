@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 54;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -145,7 +145,6 @@
 		318808EA2178166B00585AB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 318808E92178166B00585AB1 /* Assets.xcassets */; };
 		318808F82178166B00585AB1 /* SKWatchScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 318808F72178166B00585AB1 /* SKWatchScene.sks */; };
 		318808FC2178166B00585AB1 /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318808FB2178166B00585AB1 /* ExtensionDelegate.swift */; };
-		318809002178166B00585AB1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 318808FF2178166B00585AB1 /* Assets.xcassets */; };
 		318809052178166B00585AB1 /* Face.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 318808E42178166A00585AB1 /* Face.app */; };
 		318809102178172600585AB1 /* faceBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = 3188090F2178172600585AB1 /* faceBackground.png */; };
 		3188AC1121CC962000C90783 /* BezierPath+Length.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319095F921CC898100F71BC6 /* BezierPath+Length.swift */; };
@@ -201,6 +200,26 @@
 		31FF20D82290ABBD0023F8A5 /* DigitalTimeLayerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF20D62290A9A80023F8A5 /* DigitalTimeLayerOptions.swift */; };
 		31FF20DB2291C57A0023F8A5 /* GradientBackgroundLayerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF20DA2291C57A0023F8A5 /* GradientBackgroundLayerOptions.swift */; };
 		31FF20DC2291C57A0023F8A5 /* GradientBackgroundLayerOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF20DA2291C57A0023F8A5 /* GradientBackgroundLayerOptions.swift */; };
+		883CADDE25AEAF820097AAD0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 883CADE225AEAF820097AAD0 /* Info.plist */; };
+		883CADDF25AEAF820097AAD0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 883CADE225AEAF820097AAD0 /* Info.plist */; };
+		883CADE025AEAF820097AAD0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 883CADE225AEAF820097AAD0 /* Info.plist */; };
+		883CADE925AEB1A60097AAD0 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 318808E62178166A00585AB1 /* Interface.storyboard */; };
+		883CADEA25AEB1A70097AAD0 /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 318808E62178166A00585AB1 /* Interface.storyboard */; };
+		883CADED25AEB28A0097AAD0 /* AppleWatchFaces.app in Resources */ = {isa = PBXBuildFile; fileRef = 318808CD217815E600585AB1 /* AppleWatchFaces.app */; };
+		883CADEE25AEB28B0097AAD0 /* AppleWatchFaces.app in Resources */ = {isa = PBXBuildFile; fileRef = 318808CD217815E600585AB1 /* AppleWatchFaces.app */; };
+		883CADEF25AEB28C0097AAD0 /* AppleWatchFaces.app in Resources */ = {isa = PBXBuildFile; fileRef = 318808CD217815E600585AB1 /* AppleWatchFaces.app */; };
+		883CADF025AEB3120097AAD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 318808FF2178166B00585AB1 /* Assets.xcassets */; };
+		883CADF125AEB3140097AAD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 318808FF2178166B00585AB1 /* Assets.xcassets */; };
+		883CADF225AEB68A0097AAD0 /* UserDefaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318A928A21D059120060D89B /* UserDefaults.swift */; };
+		883CADF325AEB7060097AAD0 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 310CDC62222CCC3C00AF3B8D /* CoreImage.framework */; };
+		883CADF425AEB7060097AAD0 /* CoreImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 310CDC62222CCC3C00AF3B8D /* CoreImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		883CADF625AEB70A0097AAD0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 310CDC64222CCC8D00AF3B8D /* CoreGraphics.framework */; };
+		883CADF725AEB70A0097AAD0 /* CoreGraphics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 310CDC64222CCC8D00AF3B8D /* CoreGraphics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		883CADF825AEB87B0097AAD0 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 310CDC62222CCC3C00AF3B8D /* CoreImage.framework */; };
+		883CADF925AEB87B0097AAD0 /* CoreImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 310CDC62222CCC3C00AF3B8D /* CoreImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		883CADFB25AEB87E0097AAD0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 310CDC64222CCC8D00AF3B8D /* CoreGraphics.framework */; };
+		883CADFC25AEB87E0097AAD0 /* CoreGraphics.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 310CDC64222CCC8D00AF3B8D /* CoreGraphics.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		88783B1025AE9BA2000E5322 /* CameraHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 314AFC0F21D51A7000C1208E /* CameraHandler.swift */; };
 		FDC17D0221FF98CE0064D962 /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 318808F52178166B00585AB1 /* InterfaceController.swift */; };
 		FDC17D042202B05A0064D962 /* GenerateThumbnailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDC17D032202B05A0064D962 /* GenerateThumbnailsViewController.swift */; };
 /* End PBXBuildFile section */
@@ -245,6 +264,30 @@
 			name = "Embed Watch Content";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		883CADF525AEB7060097AAD0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 16;
+			files = (
+				883CADF725AEB70A0097AAD0 /* CoreGraphics.framework in Embed Frameworks */,
+				883CADF425AEB7060097AAD0 /* CoreImage.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883CADFA25AEB87C0097AAD0 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				883CADFC25AEB87E0097AAD0 /* CoreGraphics.framework in Embed Frameworks */,
+				883CADF925AEB87B0097AAD0 /* CoreImage.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
@@ -285,8 +328,8 @@
 		3109D1E421A9A37B00561F13 /* FaceChooserEditTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceChooserEditTableViewCell.swift; sourceTree = "<group>"; };
 		310B1BAF2245A25B00EA1827 /* FaceForegroundNode.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FaceForegroundNode.swift; sourceTree = "<group>"; };
 		310CDC5E222CCAA700AF3B8D /* UIImage+Gradient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Gradient.swift"; sourceTree = "<group>"; };
-		310CDC62222CCC3C00AF3B8D /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
-		310CDC64222CCC8D00AF3B8D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		310CDC62222CCC3C00AF3B8D /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = "../../../../../../Applications/Xcode-beta.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CoreImage.framework"; sourceTree = jarred; };
+		310CDC64222CCC8D00AF3B8D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = "/Users/imac/Documents/GitHub/AppleWatchFaces/source/../../../../../../Applications/Xcode-beta.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.1.sdk/System/Library/Frameworks/CoreGraphics.framework"; sourceTree = "<absolute>"; };
 		310D4A5821C0AA9000082A62 /* Collection+Safe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Collection+Safe.swift"; sourceTree = "<group>"; };
 		310D9228227E1F16007A5808 /* FaceLayersTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceLayersTableViewController.swift; sourceTree = "<group>"; };
 		310D922D227E6F17007A5808 /* FaceLayerTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FaceLayerTableViewCell.swift; sourceTree = "<group>"; };
@@ -304,7 +347,7 @@
 		314A010B219605AA009BCE3C /* Settings.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Settings.json; sourceTree = "<group>"; };
 		314A010C219605AA009BCE3C /* Themes.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Themes.json; sourceTree = "<group>"; };
 		314A010F21962FF4009BCE3C /* WatchFaceNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchFaceNode.swift; sourceTree = "<group>"; };
-		314AFC0F21D51A7000C1208E /* CameraHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CameraHandler.swift; sourceTree = "<group>"; };
+		314AFC0F21D51A7000C1208E /* CameraHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CameraHandler.swift; path = Shared/Extensions/CameraHandler.swift; sourceTree = jarred; };
 		314AFC1221D543C200C1208E /* UICollectionView+Selection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UICollectionView+Selection.swift"; sourceTree = "<group>"; };
 		314FEC8022A4FA270030DAE0 /* GearNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearNode.swift; sourceTree = "<group>"; };
 		314FEC8422A4FDC30030DAE0 /* GearLayerOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GearLayerOptions.swift; sourceTree = "<group>"; };
@@ -336,7 +379,6 @@
 		318808D5217815E600585AB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/FaceChooser.storyboard; sourceTree = "<group>"; };
 		318808D7217815E700585AB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		318808DA217815E700585AB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		318808DC217815E700585AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		318808E42178166A00585AB1 /* Face.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Face.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		318808E72178166A00585AB1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
 		318808E92178166B00585AB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -349,7 +391,7 @@
 		318808FF2178166B00585AB1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		318809012178166B00585AB1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3188090F2178172600585AB1 /* faceBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = faceBackground.png; sourceTree = "<group>"; };
-		318A928A21D059120060D89B /* UserDefaults.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
+		318A928A21D059120060D89B /* UserDefaults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaults.swift; sourceTree = "<group>"; };
 		318A928C21D05F660060D89B /* SettingsOptionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsOptionsViewController.swift; sourceTree = "<group>"; };
 		319095F921CC898100F71BC6 /* BezierPath+Length.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BezierPath+Length.swift"; sourceTree = "<group>"; };
 		319095FA21CC898100F71BC6 /* PathElement.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PathElement.swift; sourceTree = "<group>"; };
@@ -384,6 +426,9 @@
 		31FF20D4228FB96B0023F8A5 /* ColorCollectionDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCollectionDataSource.swift; sourceTree = "<group>"; };
 		31FF20D62290A9A80023F8A5 /* DigitalTimeLayerOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DigitalTimeLayerOptions.swift; sourceTree = "<group>"; };
 		31FF20DA2291C57A0023F8A5 /* GradientBackgroundLayerOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackgroundLayerOptions.swift; sourceTree = "<group>"; };
+		883CADE125AEAF820097AAD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = en; path = en.lproj/Info.plist; sourceTree = "<group>"; };
+		883CADE625AEB19C0097AAD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Base; path = Base.lproj/Info.plist; sourceTree = "<group>"; };
+		883CADE825AEB1A40097AAD0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Interface.strings; sourceTree = "<group>"; };
 		FDC17D032202B05A0064D962 /* GenerateThumbnailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenerateThumbnailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -392,6 +437,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				883CADFB25AEB87E0097AAD0 /* CoreGraphics.framework in Frameworks */,
+				883CADF825AEB87B0097AAD0 /* CoreImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -399,6 +446,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				883CADF625AEB70A0097AAD0 /* CoreGraphics.framework in Frameworks */,
+				883CADF325AEB7060097AAD0 /* CoreImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -578,7 +627,7 @@
 				318808D4217815E600585AB1 /* FaceChooser.storyboard */,
 				318808D9217815E700585AB1 /* LaunchScreen.storyboard */,
 				318808D7217815E700585AB1 /* Assets.xcassets */,
-				318808DC217815E700585AB1 /* Info.plist */,
+				883CADE225AEAF820097AAD0 /* Info.plist */,
 			);
 			path = AppleWatchFaces;
 			sourceTree = "<group>";
@@ -703,6 +752,7 @@
 				318808CA217815E600585AB1 /* Frameworks */,
 				318808CB217815E600585AB1 /* Resources */,
 				3188090D2178166B00585AB1 /* Embed Watch Content */,
+				883CADFA25AEB87C0097AAD0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -738,6 +788,7 @@
 				318808EC2178166B00585AB1 /* Sources */,
 				318808ED2178166B00585AB1 /* Frameworks */,
 				318808EE2178166B00585AB1 /* Resources */,
+				883CADF525AEB7060097AAD0 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -755,7 +806,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1010;
-				LastUpgradeCheck = 1000;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Michael Hill";
 				TargetAttributes = {
 					318808CC217815E600585AB1 = {
@@ -793,7 +844,7 @@
 				};
 			};
 			buildConfigurationList = 318808C8217815E600585AB1 /* Build configuration list for PBXProject "AppleWatchFaces" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 12.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -825,10 +876,14 @@
 				31090FBE2233277C00D6CAA7 /* GERMANICA.TTF in Resources */,
 				31090FC02233277C00D6CAA7 /* LCDPHONE.TTF in Resources */,
 				31090FDA2233277C00D6CAA7 /* NIXIEONE.TTF in Resources */,
+				883CADDE25AEAF820097AAD0 /* Info.plist in Resources */,
 				31090FCC2233277C00D6CAA7 /* ULTRACONDENSEDSARIF.TTF in Resources */,
 				31056B5F2218D2CE00D0E15C /* Media.xcassets in Resources */,
 				31090FC82233277C00D6CAA7 /* PIXEL_MILLENNIUM.TFF in Resources */,
 				31090FD22233277C00D6CAA7 /* CONERIASCRIPT.TTF in Resources */,
+				883CADF025AEB3120097AAD0 /* Assets.xcassets in Resources */,
+				883CADED25AEB28A0097AAD0 /* AppleWatchFaces.app in Resources */,
+				883CADE925AEB1A60097AAD0 /* Interface.storyboard in Resources */,
 				31090FCA2233277C00D6CAA7 /* RATIONALINT.TTF in Resources */,
 				31090FD62233277C00D6CAA7 /* JOYSTIX.TTF in Resources */,
 				314A010E219605AA009BCE3C /* Themes.json in Resources */,
@@ -854,7 +909,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				318808EA2178166B00585AB1 /* Assets.xcassets in Resources */,
+				883CADEE25AEB28B0097AAD0 /* AppleWatchFaces.app in Resources */,
 				318808E82178166A00585AB1 /* Interface.storyboard in Resources */,
+				883CADDF25AEAF820097AAD0 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -873,7 +930,7 @@
 				31EF99A621A21A2200BB54E7 /* Themes.json in Resources */,
 				315878CE22876338008FFC76 /* CAPECOD.OTF in Resources */,
 				318809102178172600585AB1 /* faceBackground.png in Resources */,
-				318809002178166B00585AB1 /* Assets.xcassets in Resources */,
+				883CADEF25AEB28C0097AAD0 /* AppleWatchFaces.app in Resources */,
 				31056B602218D2CE00D0E15C /* Media.xcassets in Resources */,
 				31090FC32233277C00D6CAA7 /* IRONLOUNGE.TTF in Resources */,
 				31EF99A521A21A1300BB54E7 /* Settings.json in Resources */,
@@ -884,7 +941,10 @@
 				31090FDB2233277C00D6CAA7 /* NIXIEONE.TTF in Resources */,
 				31090FD52233277C00D6CAA7 /* DINPRO-LIGHT.TTF in Resources */,
 				31090FCF2233277C00D6CAA7 /* ROTHERNBURGDECORATIVE.TTF in Resources */,
+				883CADEA25AEB1A70097AAD0 /* Interface.storyboard in Resources */,
 				31090FBD2233277C00D6CAA7 /* ROMAN-TRAJAN-PRO.TTF in Resources */,
+				883CADE025AEAF820097AAD0 /* Info.plist in Resources */,
+				883CADF125AEB3140097AAD0 /* Assets.xcassets in Resources */,
 				31090FCD2233277C00D6CAA7 /* ULTRACONDENSEDSARIF.TTF in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -998,6 +1058,7 @@
 				312E2D7021F3E16A00C2F17F /* ClockTimer.swift in Sources */,
 				31D8633E21E5954B005BCB6F /* NumberTextNode.swift in Sources */,
 				31053344225C3DE7004282E5 /* FaceForegroundNode.swift in Sources */,
+				883CADF225AEB68A0097AAD0 /* UserDefaults.swift in Sources */,
 				31B5E8DE218CE02D00DE6429 /* FaceIndicatorNode.swift in Sources */,
 				3188AC1121CC962000C90783 /* BezierPath+Length.swift in Sources */,
 				312E853922239740001C450B /* Double+Rounded.swift in Sources */,
@@ -1034,6 +1095,7 @@
 				31B5E8E1218CE03500DE6429 /* HourHandNode.swift in Sources */,
 				312E2D6A21F2D69F00C2F17F /* SKWatchScene.swift in Sources */,
 				31BF7CA62339B82A00DD8A5C /* BezierPath+CircleSegment.swift in Sources */,
+				88783B1025AE9BA2000E5322 /* CameraHandler.swift in Sources */,
 				318808FC2178166B00585AB1 /* ExtensionDelegate.swift in Sources */,
 				31EF999721A0B6B700BB54E7 /* SKShapeNode.swift in Sources */,
 				31D8633C21E5954B005BCB6F /* DigitalTimeNode.swift in Sources */,
@@ -1089,8 +1151,19 @@
 			isa = PBXVariantGroup;
 			children = (
 				318808E72178166A00585AB1 /* Base */,
+				883CADE825AEB1A40097AAD0 /* en */,
 			);
 			name = Interface.storyboard;
+			sourceTree = "<group>";
+			usesTabs = 0;
+		};
+		883CADE225AEAF820097AAD0 /* Info.plist */ = {
+			isa = PBXVariantGroup;
+			children = (
+				883CADE125AEAF820097AAD0 /* en */,
+				883CADE625AEB19C0097AAD0 /* Base */,
+			);
+			name = Info.plist;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -1122,6 +1195,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1147,7 +1221,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -1183,6 +1257,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -1202,7 +1277,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -1219,14 +1294,18 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 37;
-				DEVELOPMENT_TEAM = 4345F4RV9N;
+				DEVELOPMENT_TEAM = 5WXTDPLYCX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../../../../../../Applications/Xcode-beta.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.1.sdk/System/Library/Frameworks",
+				);
 				INFOPLIST_FILE = AppleWatchFaces/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mikehill.clockologyopensource;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikehill.clockologyopensource-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
@@ -1241,14 +1320,18 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 37;
-				DEVELOPMENT_TEAM = 4345F4RV9N;
+				DEVELOPMENT_TEAM = 5WXTDPLYCX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../../../../../../Applications/Xcode-beta.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.1.sdk/System/Library/Frameworks",
+				);
 				INFOPLIST_FILE = AppleWatchFaces/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mikehill.clockologyopensource;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikehill.clockologyopensource-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
@@ -1263,14 +1346,19 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 37;
-				DEVELOPMENT_TEAM = 4345F4RV9N;
+				DEVELOPMENT_ASSET_PATHS = "Face\\ Extension/Face\\ Extension-Bridging-Header.h";
+				DEVELOPMENT_TEAM = 5WXTDPLYCX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../../../../../../Applications/Xcode-beta.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.1.sdk/System/Library/Frameworks",
+				);
 				INFOPLIST_FILE = "Face Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mikehill.clockologyopensource.watchkit.extension;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikehill.clockologyopensource.watchkit.extension-1";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1289,14 +1377,19 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 37;
-				DEVELOPMENT_TEAM = 4345F4RV9N;
+				DEVELOPMENT_ASSET_PATHS = "Face\\ Extension/Face\\ Extension-Bridging-Header.h";
+				DEVELOPMENT_TEAM = 5WXTDPLYCX;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/../../../../../../Applications/Xcode-beta.app/Contents/Developer/Platforms/WatchOS.platform/Developer/SDKs/WatchOS5.1.sdk/System/Library/Frameworks",
+				);
 				INFOPLIST_FILE = "Face Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@executable_path/../../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mikehill.clockologyopensource.watchkit.extension;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikehill.clockologyopensource.watchkit.extension-1";
 				PRODUCT_NAME = "${TARGET_NAME}";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1315,7 +1408,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 37;
-				DEVELOPMENT_TEAM = 4345F4RV9N;
+				DEVELOPMENT_TEAM = 5WXTDPLYCX;
 				IBSC_MODULE = Face_Extension;
 				INFOPLIST_FILE = Face/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1323,7 +1416,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mikehill.clockologyopensource.watchkit;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikehill.clockologyopensource.watchkit-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1342,7 +1435,7 @@
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 37;
-				DEVELOPMENT_TEAM = 4345F4RV9N;
+				DEVELOPMENT_TEAM = 5WXTDPLYCX;
 				IBSC_MODULE = Face_Extension;
 				INFOPLIST_FILE = Face/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1350,7 +1443,7 @@
 					"@executable_path/../Frameworks",
 					"@loader_path/../Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mikehill.clockologyopensource.watchkit;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.mikehill.clockologyopensource.watchkit-1";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
@@ -1370,7 +1463,7 @@
 				318808DE217815E700585AB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		318808DF217815E700585AB1 /* Build configuration list for PBXNativeTarget "AppleWatchFaces" */ = {
 			isa = XCConfigurationList;
@@ -1379,7 +1472,7 @@
 				318808E1217815E700585AB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		318809062178166B00585AB1 /* Build configuration list for PBXNativeTarget "Face Extension" */ = {
 			isa = XCConfigurationList;
@@ -1388,7 +1481,7 @@
 				318809082178166B00585AB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 		3188090A2178166B00585AB1 /* Build configuration list for PBXNativeTarget "Face" */ = {
 			isa = XCConfigurationList;
@@ -1397,7 +1490,7 @@
 				3188090C2178166B00585AB1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Debug;
 		};
 /* End XCConfigurationList section */
 	};

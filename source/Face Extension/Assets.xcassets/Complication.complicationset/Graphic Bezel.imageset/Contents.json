@@ -1,32 +1,59 @@
 {
   "images" : [
     {
-      "idiom" : "watch",
       "filename" : "iconAlpha-Sized-3.png",
-      "screen-width" : "<=145",
-      "scale" : "2x"
+      "idiom" : "watch",
+      "scale" : "2x",
+      "screen-width" : "<=145"
     },
     {
-      "idiom" : "watch",
       "filename" : "iconAlpha-Sized-2.png",
-      "screen-width" : ">161",
-      "scale" : "2x"
+      "idiom" : "watch",
+      "scale" : "2x",
+      "screen-width" : ">161"
     },
     {
       "idiom" : "watch",
-      "filename" : "iconAlpha-Sized-1.png",
-      "screen-width" : ">145",
-      "scale" : "2x"
+      "scale" : "2x",
+      "screen-width" : ">145"
     },
     {
-      "idiom" : "watch",
       "filename" : "iconAlpha-Sized.png",
-      "screen-width" : ">183",
-      "scale" : "2x"
+      "idiom" : "watch",
+      "scale" : "2x",
+      "screen-width" : ">183"
+    },
+    {
+      "idiom" : "watch",
+      "locale" : "en",
+      "scale" : "2x",
+      "screen-width" : "<=145"
+    },
+    {
+      "idiom" : "watch",
+      "locale" : "en",
+      "scale" : "2x",
+      "screen-width" : ">161"
+    },
+    {
+      "filename" : "iconAlpha-Sized-1.png",
+      "idiom" : "watch",
+      "locale" : "en",
+      "scale" : "2x",
+      "screen-width" : ">145"
+    },
+    {
+      "idiom" : "watch",
+      "locale" : "en",
+      "scale" : "2x",
+      "screen-width" : ">183"
     }
   ],
   "info" : {
-    "version" : 1,
-    "author" : "xcode"
+    "author" : "xcode",
+    "version" : 1
+  },
+  "properties" : {
+    "localizable" : true
   }
 }
